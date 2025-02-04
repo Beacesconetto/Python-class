@@ -1,8 +1,8 @@
 num = int(input('Digite um número inteiro: '))
-print('Escolha uma das bases para conversão:')
-print('[1] converter para BINÁRIO')
-print('[2] converter para OCTAL')
-print('[3] converter para HEXADECIMAL')
+print('''Escolha uma das bases para conversão:
+      [1] converter para BINÁRIO
+      [2] converter para OCTAL
+      [3] converter para HEXADECIMAL''')
 inp = int(input('Sua opção: '))
 
 # binario = format(num, 'b')outrro método para converter para binário (b) octal (o) e hexadecimal (x)
