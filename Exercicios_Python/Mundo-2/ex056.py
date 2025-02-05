@@ -14,7 +14,7 @@ for x in range (1, 5):
     if x == 1 and sexo == 'M':
         maisVelho = idade
         nomeMaisVelho = nome
-    elif sexo == 'M' and  idade > maisVelho:
+    elif idade > maisVelho:  # já sabemos que o sexo é masculino, não precisa repetir a verificação
         maisVelho = idade
         nomeMaisVelho = nome
 
