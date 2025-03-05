@@ -1,15 +1,15 @@
 print('~' * 41)
-num = int(input('Quantos termos você quer mostrar? '))
-t1 = 0
-t2 = 1
+n = int(input('Quantos termos você quer mostrar? '))
 print('~' * 41)
-print(f'{t1} -> {t2}', end='')
+t0 = 0
+t1 = 1
+print(f'{t0} -> {t1}', end= '')
 cont = 3
-while cont <= num:
-    t3 = t1 + t2
-    print(f' -> {t3}', end='')
-    t1 = t2
-    t2 = t3
-    cont += 1
 
+while cont <= n:
+    t2 = t0 + t1
+    print(f' -> {t2}', end= '')
+    t0 = t1
+    t1 = t2
+    cont += 1
 print(' -> FIM')
