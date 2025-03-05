@@ -8,14 +8,14 @@ tentativas = 0
 acertou = False
 
 while not acertou:
-    num = int(input('Qual o seu palpite: '))
+    jogador = int(input('Qual o seu palpite: '))
     tentativas += 1
-    if num == computador:
+    if jogador == computador:
         acertou = True
         print(f'Acertou com {tentativas} tentativas. Parabéns!')    
     else:
-        if num < computador:
+        if jogador < computador:
             print('Mais... Tente mais uma vez.')
-        elif num > computador:
+        elif jogador > computador:
             print('Menos... Tente mais uma vez.')
   
