@@ -7,7 +7,7 @@ while resp in 'Ss':
     cont += 1
     if cont == 1:
          maior = menor = num
-    else: #Fazer assim ao inves de só com elif garante que  verifique se o num > maior e num < menor porem com o elif ele verifica um mas não o outro 
+    else: #Fazer assim ao inves de só com elif garante que verifique se o num > maior e num < menor porem com o elif ele verifica um mas não o outro 
         if num > maior:
               maior = num
         if num < menor:
