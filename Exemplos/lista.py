@@ -34,13 +34,13 @@ for c,v in enumerate(valores): #Enumerate pega a posição e o elemento da lista
 
 numeros = list()
 for cont in range(0,5):
-    numeros.append(int(input('Digite um valor: ')))
+    numeros.append(int(input(f'Digite um valor{cont}: ')))
     
 for x,y in enumerate(numeros): 
     print(f'Na posição {x} encontrei o valor {y}!')    
 
 a = [2, 3, 4, 7]
-b = a[:] #Se estiver assim se eu mudar algo na lista B a lista A não muda 
+b = a[:] #Se estiver assim e eu mudar algo na lista B a lista A não muda 
 b[2] = 8 #Muda as duas listas se b = a
 print(f'Lista A {a}') 
 print(f'Lista B {b}')    
