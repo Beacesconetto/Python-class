@@ -11,7 +11,7 @@ while True:
     resp = ' '
     if preco >= 1000:
         caro += 1
-    if cont == 1 or preco < meno:  
+    if cont == 1 or preco < menor:  
         menor = preco
         barato = produto
     while resp not in 'SN':
